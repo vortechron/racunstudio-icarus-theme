@@ -1,0 +1,22 @@
+{
+    "name": "vortechron/racunstudio-icarus-theme",
+    "description": "Racunstudio Icarus Theme",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vortechron",
+            "email": "sayaamiruladli@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RacunStudioIcarus\\": "./core"
+        },
+        "files": [
+            "./functions.php"
+        ]
+    }
+}

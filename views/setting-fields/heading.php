@@ -1,0 +1,1 @@
+<input type="text" name="heading" value="<?= esc_attr(get_option('heading')); ?>">
