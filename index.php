@@ -130,7 +130,7 @@ $loop = new WP_Query( array(
 $loop->the_post(); 
 ?>
         <div class="col-md-6">
-          <div class="testimonial-box" v-parallax="0.1">
+          <div class="testimonial-box mb-12" v-parallax="0.1">
             <div class="row personal-info">
               <div class="col-md-2 col-xs-2">
                 <div class="profile-picture review-one">
