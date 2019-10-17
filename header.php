@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <title>RacunStudio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -67,9 +68,21 @@
           <li class="nav-item nav-custom-link">
             <a class="nav-link text-lg" href="/#teams">Teams <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
+          <?php
+        $loop = new WP_Query(
+            array(
+                'post_type' => 'post',
+                'posts_per_page' => -1
+            )
+        );
+        ?>
+
+        <?php if ($loop->have_posts()) : ?>
           <li class="nav-item nav-custom-link">
             <a class="nav-link text-lg" href="/blogs">Blogs <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li>
+
+      <?php endif; ?>
           <!-- <li class="nav-item nav-custom-link">
             <a class="nav-link" href="#pricing">Pricing <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
           </li> -->
