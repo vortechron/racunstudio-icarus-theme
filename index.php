@@ -51,7 +51,7 @@ $type = $counter % 2 == 0 ? 'left' : 'right';
   <section id="marketing" >
     <div class="container">
       <div class="row flex items-center">
-        <div class="col-md-5">
+        <div class="col-md-7">
 
           <div class="content-box">
             <span v-scroll-reveal><?= get_field('subtitle'); ?></span>
@@ -66,7 +66,7 @@ $type = $counter % 2 == 0 ? 'left' : 'right';
           </div>
 
         </div>
-        <div class="col-md-7" >
+        <div class="col-md-5" >
           <div v-parallax="0.1">
 
             <?= the_post_thumbnail('large', ['class' => 'img-fluid']); ?>
