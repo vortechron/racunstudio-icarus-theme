@@ -19,7 +19,7 @@
         <div class="col-md-6 offset-md-3 text-center hero-content text-white" v-parallax="0.2">
           <span v-scroll-reveal><?= get_option('feature-subheading'); ?></span>
           <h1 v-scroll-reveal><?= get_option('feature-heading'); ?></h1>
-          <p v-scroll-reveal><?= get_option('feature-content'); ?></p>
+          <p v-scroll-reveal class="text-white"><?= get_option('feature-content'); ?></p>
         </div>
       </div>
     </div>
