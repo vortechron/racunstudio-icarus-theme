@@ -10,7 +10,7 @@
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "devDependencies": {
-        "laravel-mix": "0.*"
+        "laravel-mix": "6.*"
     },
     "dependencies": {
         "aos": "^3.0.0-beta.6",
@@ -21,9 +21,9 @@
         "jquery-parallax.js": "^1.5.0",
         "lodash": "^4.17.5",
         "popper.js": "^1.12",
-        "resolve-url-loader": "^2.3.1",
+        "resolve-url-loader": "^5.0.0",
         "sass": "^1.22.10",
-        "sass-loader": "^7.3.1",
+        "sass-loader": "^13.2.0",
         "vue": "^2.5.17",
         "vue-aos": "^1.0.1",
         "vue-parallax-js": "^0.2.3",
